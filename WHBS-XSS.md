@@ -1,10 +1,14 @@
 # WHBS-XSS
 
-[Wedding Hall Booking System](https://www.sourcecodester.com/php/15154/wedding-hall-booking-system-phpoop-free-source-code.html) does not do any processing of input and output, so there are multiple Cross-Site Scripting vulnerabilities, which can steal the cookies of users and administrators.
+The Wedding Hall Booking System published in SourceCodester has multiple Cross-site scripting vulnerabilities. The system does not do anything with input and output. Attackers can construct malicious code to steal user and administrator cookies.
 
 
 
 ## Contact Us
+
+```
+/whbs/?page=contact_us
+```
 
 ![image-20220806143046818](WHBS-XSS.assets/image-20220806143046818.png)
 
